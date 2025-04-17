@@ -1,0 +1,24 @@
+const AccountId = 144553
+let accountEmail = "hitesh@google.com"
+var accountPassword ="12345"
+accountyCity ="Jaipur"
+// accountId = 2           not allowed to change const value
+
+accountEmail = "abc@google.com"
+accountPassword ="6789"
+accountyCity ="Jodhpur"
+let accountState 
+
+console.table([accountEmail,accountPassword,AccountId,accountyCity,accountState])
+
+
+// Prefer not use var in JS,bcz of issue in block scope and fnal scope
+
+// let name = "rahul"
+// let check = 'another variable'
+// const check_const = '0001'
+// var another 
+
+
+//console.log([name,check,AccountId,another])
+//console.table([name,check,AccountId,another])
